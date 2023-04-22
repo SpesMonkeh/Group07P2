@@ -15,9 +15,9 @@ public class QuestionBehavior : MonoBehaviour
     public GameObject[] GeoQuestionArray= new GameObject[10];
     
     
-    public GameObject[] FinishedQuestions= new GameObject[5];
+    public GameObject[] FinishedQuestions= new GameObject[10];
 
-
+    public GameManager GameManager;
 
     public void CheckRightAnswer(int answerArray)
     {
@@ -28,6 +28,8 @@ public class QuestionBehavior : MonoBehaviour
         if (myText==RightAnswer)
         {
             Debug.Log("Correct");
+            Destroy(GameObject.FindWithTag("Answer"));
+            GameManager.AnswerCorrectly();
         }
         else
         {
@@ -59,9 +61,19 @@ public class QuestionBehavior : MonoBehaviour
         MainInputField = MainInputFields[fieldIndex];
     }
 
+    
     public void ActivateQuestion(int index)
     {
-        GDQuestionArray[index].SetActive(true);
+        if (!GDQuestionArray[index].activeInHierarchy)
+        {
+            GDQuestionArray[index].SetActive(true);
+        }
+        else
+        {
+            GDQuestionArray[index].SetActive(false);
+        }
+
+        
     }
 
     
