@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< Updated upstream:P2 Application/UserSettings/EditorUserSettings.asset
       value: 07085004060d505a085b5c2340250b44464e41287d797633757b1836b0b2363e
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -13,6 +14,18 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-2:
       value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
+=======
+      value: 5706005e04575d0859575d2116220a44174e1a7f7f2a7f60752d4863b1e6323a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 0707515457025f5d5559597212725a444e164a2f7f2e24632c711836b4b36160
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 075205565d515a0a0e5e5b7049250e44124e1a28287c2266742b456ab2b4633c
+>>>>>>> Stashed changes:The P2 Application/UserSettings/EditorUserSettings.asset
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
