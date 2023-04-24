@@ -7,25 +7,29 @@ public class QuestionBehavior : MonoBehaviour
 {
 
     public TMP_InputField MainInputField;
-    public string myText;
+    [SerializeField] private TMP_InputField[] MainInputFields;
+    [SerializeField] private string myText;
     public string RightAnswer;
     public string[] RightAnswers;
     public GameObject[] GDQuestionArray;
     public GameObject[] GeoQuestionArray= new GameObject[10];
     
     
-    public GameObject[] FinishedQuestions;
+    public GameObject[] FinishedQuestions= new GameObject[10];
 
+    public GameManager GameManager;
 
-
-    public void CheckRightAnswer()
+    public void CheckRightAnswer(int answerArray)
     {
         myText = MainInputField.text;
+        RightAnswer = RightAnswers[answerArray];
         
 
         if (myText==RightAnswer)
         {
             Debug.Log("Correct");
+            Destroy(GameObject.FindWithTag("Answer"));
+            GameManager.AnswerCorrectly();
         }
         else
         {
@@ -41,26 +45,35 @@ public class QuestionBehavior : MonoBehaviour
     {
 
         var questionIndex = Random.Range(0, GDQuestionArray.Length);
-        var answerIndex = Random.Range(0, RightAnswers.Length);
+        var answerIndex = questionIndex;
         
         
-        //while (FinishedQuestions[questionIndex] != null)
+        while (FinishedQuestions[questionIndex] != null)
         {
             questionIndex = Random.Range(0, GDQuestionArray.Length);
         }
-        
-
-        if (questionIndex==answerIndex)
-        {
-            ActivateQuestion(questionIndex);
-        }
-        
-        //FinishedQuestions[questionIndex] = GDQuestionArray[questionIndex];
+        ActivateQuestion(questionIndex);
+        FinishedQuestions[questionIndex] = GDQuestionArray[questionIndex];
     }
 
+    public void SelectAnInputField(int fieldIndex)
+    {
+        MainInputField = MainInputFields[fieldIndex];
+    }
+
+    
     public void ActivateQuestion(int index)
     {
-        GDQuestionArray[index].SetActive(true);
+        if (!GDQuestionArray[index].activeInHierarchy)
+        {
+            GDQuestionArray[index].SetActive(true);
+        }
+        else
+        {
+            GDQuestionArray[index].SetActive(false);
+        }
+
+        
     }
 
     
