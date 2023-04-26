@@ -130,8 +130,8 @@ public class GameController : MonoBehaviour
 
         if(countCorrectGuesses == gameGuesses)
         {
-            Debug.Log("game Finished");
-            Debug.Log("it took u" + countGuesses + "many guesses to finish");
+            Debug.Log("Game Finished");
+            Debug.Log("it took u " + countGuesses + " guesses to finish");
         }
     }
 
