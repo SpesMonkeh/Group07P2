@@ -20,3 +20,5 @@ public class GameControl : MonoBehaviour
             winText.SetActive(true);
     }
 }
+
+//Code from Youtube, Alexander Zotov: https://www.youtube.com/watch?v=7HEjCEncezs and https://www.youtube.com/watch?v=p7akGCRgBLA
