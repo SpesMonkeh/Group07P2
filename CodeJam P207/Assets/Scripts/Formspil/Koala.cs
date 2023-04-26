@@ -28,7 +28,7 @@ public class Koala : MonoBehaviour
         //(using this variable we get a position of our touch)
         if (Input.touchCount > 0 && !locked)
         {
-            Touch touch = Input.GetTouch(0);
+            Touch touch = Input.GetTouch(2);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
 
             //This switch statement goes through some possible touch phases

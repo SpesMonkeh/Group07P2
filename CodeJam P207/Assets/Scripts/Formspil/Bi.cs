@@ -26,7 +26,7 @@ public class Bi : MonoBehaviour
         //The if statement says: If the input touch count is greater than 0 and if the bi is not locked already then we initialize and design touch variable that will hold the infomation about this particular touch event.
         if (Input.touchCount > 0 && !locked)
         {
-            Touch touch = Input.GetTouch(0);
+            Touch touch = Input.GetTouch(2);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
 
             //This switch statement goes through some possible touch phases
