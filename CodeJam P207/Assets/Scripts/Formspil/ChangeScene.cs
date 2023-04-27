@@ -10,4 +10,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName); //This changes the scene depending on the scene number
     }
+
+    public void CloseApplication()
+    {
+        Application.Quit();
+    }
 }
