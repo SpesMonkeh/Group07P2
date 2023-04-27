@@ -2,10 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 public class VolumeSlider : MonoBehaviour
 {
     [SerializeField] private Slider slider;
@@ -15,8 +12,4 @@ public class VolumeSlider : MonoBehaviour
         SoundManager.Instance.ChangeMasterVolume(slider.value);
         slider.onValueChanged.AddListener(val => SoundManager.Instance.ChangeMasterVolume(val));
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
