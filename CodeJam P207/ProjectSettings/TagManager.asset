@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Puzzle
+  - Puzzle1
+  - Puzzle2
+  - Puzzle3
+  - RightPlace
+  - RightPlace1
+  - RightPlace2
+  - RightPlace3
   layers:
   - Default
   - TransparentFX
