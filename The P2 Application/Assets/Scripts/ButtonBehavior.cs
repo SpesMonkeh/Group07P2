@@ -12,6 +12,11 @@ public class ButtonBehavior : MonoBehaviour
         NextLevelPanel.SetActive(true);
     }
 
+    public void ShutDownQuestion()
+    {
+        GameObject.FindGameObjectWithTag("Question").SetActive(false);
+    }
+
     // Start is called before the first frame update
     void Start()
     {

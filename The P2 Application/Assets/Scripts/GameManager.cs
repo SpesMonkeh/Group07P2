@@ -5,7 +5,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public int RemainingQuestions = 10;
+    public int RemainingQuestions = 20;
     public TextMeshProUGUI RemainingQuestionsText;
     [SerializeField] private GameObject NextLevelButton;
 
