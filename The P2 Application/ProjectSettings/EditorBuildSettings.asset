@@ -24,15 +24,15 @@ EditorBuildSettings:
     path: "Assets/Scenes/M\xE5l.unity"
     guid: 5eba1c49f22622a43bcbcb628ff74b5e
   - enabled: 1
-    path: Assets/Scenes/NEM.unity
+    path: Assets/Scenes/Niveauer/NEM/NEM.unity
     guid: dc108d31c0729f14d9bbd4d69b89047d
   - enabled: 1
-    path: Assets/Scenes/MELLEM.unity
+    path: Assets/Scenes/Niveauer/MELLEM/MELLEM.unity
     guid: 6f400b5d5d1ff22479c2595c863e4d5e
   - enabled: 1
-    path: "Assets/Scenes/SV\xC6R.unity"
+    path: "Assets/Scenes/Niveauer/SV\xC6R/SV\xC6R.unity"
     guid: 298ec0e5b93d25747b254138ec3c3aff
   - enabled: 1
-    path: Assets/Scenes/OP.unity
+    path: Assets/Scenes/Niveauer/OP/OP.unity
     guid: 2b36767f3feb70f4a9f42ebb015d06a6
   m_configObjects: {}
