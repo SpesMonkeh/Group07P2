@@ -12,10 +12,11 @@ public class QuestionBehavior : MonoBehaviour
     public string RightAnswer;
     public string[] RightAnswers;
     public GameObject[] GDQuestionArray;
-    public GameObject[] GeoQuestionArray= new GameObject[10];
-    
-    
-    public GameObject[] FinishedQuestions= new GameObject[10];
+    public GameObject[] GDFinishedQuestions = new GameObject[10];
+    [SerializeField]
+    public GameObject[] GeoQuestionArray;
+    public GameObject[] GeoFinishedQuestions = new GameObject[10];
+
 
     public GameManager GameManager;
 
@@ -38,23 +39,32 @@ public class QuestionBehavior : MonoBehaviour
 
     }
 
+    public void SpawnGDQuestion()
+    {
+        SpawnTheQuestion(GDQuestionArray,GDFinishedQuestions);
+    }
 
-   
+    public void SpawnGeoQuestion()
+    {
+        SpawnTheQuestion(GeoQuestionArray,GeoFinishedQuestions);
+    }
+
     
-    public void SpawnQuestion()
+    public void SpawnTheQuestion(GameObject[] array, GameObject[] finishedQuestions)
     {
 
-        var questionIndex = Random.Range(0, GDQuestionArray.Length);
+        var questionIndex = Random.Range(0, array.Length);
         var answerIndex = questionIndex;
         
         
-        while (FinishedQuestions[questionIndex] != null)
+        while (finishedQuestions[questionIndex] != null)
         {
-            questionIndex = Random.Range(0, GDQuestionArray.Length);
+            questionIndex = Random.Range(0, array.Length);
         }
-        ActivateQuestion(questionIndex);
-        FinishedQuestions[questionIndex] = GDQuestionArray[questionIndex];
+        array[questionIndex].SetActive(true);
+        finishedQuestions[questionIndex] = array[questionIndex];
     }
+
 
     public void SelectAnInputField(int fieldIndex)
     {
@@ -64,13 +74,13 @@ public class QuestionBehavior : MonoBehaviour
     
     public void ActivateQuestion(int index)
     {
-        if (!GDQuestionArray[index].activeInHierarchy)
+        if (!GDQuestionArray[index].activeInHierarchy || !GeoQuestionArray[index].activeInHierarchy)
         {
-            GDQuestionArray[index].SetActive(true);
+            GameObject.FindGameObjectWithTag("Question").SetActive(true);
         }
         else
         {
-            GDQuestionArray[index].SetActive(false);
+            GameObject.FindGameObjectWithTag("Question").SetActive(true);
         }
 
         
