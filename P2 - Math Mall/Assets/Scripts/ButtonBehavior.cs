@@ -15,6 +15,7 @@ public class ButtonBehavior : MonoBehaviour
     public void ShutDownQuestion()
     {
         GameObject.FindGameObjectWithTag("Question").SetActive(false);
+        GameObject.FindGameObjectWithTag("HintButton").SetActive(false);
     }
 
     // Start is called before the first frame update

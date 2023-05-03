@@ -16,6 +16,9 @@ public class QuestionBehavior : MonoBehaviour
     [SerializeField]
     public GameObject[] GeoQuestionArray;
     public GameObject[] GeoFinishedQuestions = new GameObject[10];
+    [SerializeField] private GameObject[] HintButtons;
+    [SerializeField] private GameObject[] HintPanels;
+    
 
 
     public GameManager GameManager;
@@ -42,11 +45,13 @@ public class QuestionBehavior : MonoBehaviour
     public void SpawnGDQuestion()
     {
         SpawnTheQuestion(GDQuestionArray,GDFinishedQuestions);
+        SpawnHintButton(0);
     }
 
     public void SpawnGeoQuestion()
     {
         SpawnTheQuestion(GeoQuestionArray,GeoFinishedQuestions);
+        SpawnHintButton(1);
     }
 
     
@@ -69,6 +74,23 @@ public class QuestionBehavior : MonoBehaviour
     public void SelectAnInputField(int fieldIndex)
     {
         MainInputField = MainInputFields[fieldIndex];
+    }
+    
+    private void SpawnHintButton(int index)
+    {
+        HintButtons[index].SetActive(true);
+    }
+    
+    public void SpawnHintPanel(int index)
+    {
+        if (!HintPanels[index].activeInHierarchy)
+        {
+            HintPanels[index].SetActive(true);
+        }
+        else
+        {
+            HintPanels[index].SetActive(false);
+        }
     }
 
     

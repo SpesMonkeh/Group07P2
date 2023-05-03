@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Answer
   - Question
+  - HintButton
   layers:
   - Default
   - TransparentFX
