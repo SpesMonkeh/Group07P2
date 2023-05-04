@@ -7,6 +7,9 @@ TagManager:
   - Answer
   - Question
   - HintButton
+  - GDCollider
+  - GeoCollider
+  - Stick
   layers:
   - Default
   - TransparentFX

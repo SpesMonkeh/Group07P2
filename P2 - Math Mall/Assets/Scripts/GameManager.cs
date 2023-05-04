@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int RemainingQuestions = 20;
     public TextMeshProUGUI RemainingQuestionsText;
     [SerializeField] private GameObject NextLevelButton;
+    [SerializeField] private GameObject _stick;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +33,11 @@ public class GameManager : MonoBehaviour
         NextLevelButton.SetActive(true);
     }
 
-    
-    
+
+    public void ActivateJoyStick()
+    {
+        _stick.SetActive(true);
+    }
     
     
     
