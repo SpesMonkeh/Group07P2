@@ -7,6 +7,13 @@ TagManager:
   - Answer
   - Question
   - HintButton
+  - GDCollider
+  - GeoCollider
+  - Stick
+  - Teleporter
+  - Teleporter2
+  - Teleporter3
+  - Teleporter4
   layers:
   - Default
   - TransparentFX

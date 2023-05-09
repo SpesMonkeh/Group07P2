@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int RemainingQuestions = 20;
     public TextMeshProUGUI RemainingQuestionsText;
     [SerializeField] private GameObject NextLevelButton;
+    [SerializeField] private GameObject _stick;
 
     private void Awake()
     {
@@ -36,6 +37,16 @@ public class GameManager : MonoBehaviour
     {
         NextLevelButton.SetActive(true);
     }
+
+
+
+    public void ActivateJoyStick()
+    {
+        _stick.SetActive(true);
+    }
+    
+    
+
     
     // Update is called once per frame
     void Update()

@@ -5,6 +5,13 @@ using UnityEngine;
 public class ButtonBehavior : MonoBehaviour
 {
     [SerializeField] private GameObject NextLevelPanel;
+    public GameManager GameManager;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
 
 
     public void SpawnNextLevelPanel()
@@ -16,14 +23,14 @@ public class ButtonBehavior : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("Question").SetActive(false);
         GameObject.FindGameObjectWithTag("HintButton").SetActive(false);
-    }
+        GameManager.ActivateJoyStick();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
+    
+    
 
+
+   
     // Update is called once per frame
     void Update()
     {
