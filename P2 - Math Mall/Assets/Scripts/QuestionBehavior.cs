@@ -16,6 +16,14 @@ public class QuestionBehavior : MonoBehaviour
     [SerializeField]
     public GameObject[] GeoQuestionArray;
     public GameObject[] GeoFinishedQuestions = new GameObject[10];
+
+    public GameObject[] KSQuestionArray;
+    public GameObject[] KSFinishedQuestions = new GameObject[10];
+
+    public GameObject[] FraQuestionArray;
+    public GameObject[] FraFinishedQuestions = new GameObject[10];
+
+
     [SerializeField] private GameObject[] HintButtons;
     [SerializeField] private GameObject[] HintPanels;
     
@@ -54,7 +62,19 @@ public class QuestionBehavior : MonoBehaviour
         SpawnHintButton(1);
     }
 
-    
+    public void SpawnKSQuestion()
+    {
+        SpawnTheQuestion(KSQuestionArray, KSFinishedQuestions);
+        //SpawnHintButton(1);
+    }
+
+    public void SpawnFraQuestion()
+    {
+        SpawnTheQuestion(FraQuestionArray, FraFinishedQuestions);
+        //SpawnHintButton(1);
+    }
+
+
     public void SpawnTheQuestion(GameObject[] array, GameObject[] finishedQuestions)
     {
 
@@ -96,7 +116,7 @@ public class QuestionBehavior : MonoBehaviour
     
     public void ActivateQuestion(int index)
     {
-        if (!GDQuestionArray[index].activeInHierarchy || !GeoQuestionArray[index].activeInHierarchy)
+        if (!GDQuestionArray[index].activeInHierarchy || !GeoQuestionArray[index].activeInHierarchy || !FraQuestionArray[index].activeInHierarchy || !KSQuestionArray[index].activeInHierarchy)
         {
             GameObject.FindGameObjectWithTag("Question").SetActive(true);
         }
@@ -108,8 +128,9 @@ public class QuestionBehavior : MonoBehaviour
         
     }
 
-  
-    
+
+
+
     // Start is called before the first frame update
     void Start()
     {
