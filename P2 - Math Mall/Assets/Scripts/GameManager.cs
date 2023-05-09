@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI RemainingQuestionsText;
     [SerializeField] private GameObject NextLevelButton;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,11 +36,6 @@ public class GameManager : MonoBehaviour
     {
         NextLevelButton.SetActive(true);
     }
-
-    
-    
-    
-    
     
     // Update is called once per frame
     void Update()

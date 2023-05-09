@@ -1262,7 +1262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &58720354
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SpawnGDQuestion
         m_Mode: 1
@@ -3084,7 +3084,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -3096,7 +3096,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -3418,7 +3418,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -4409,7 +4409,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SpawnHintPanel
         m_Mode: 3
@@ -4813,7 +4813,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -5179,7 +5179,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -5191,7 +5191,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -5717,7 +5717,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -5729,7 +5729,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -5916,7 +5916,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -6876,7 +6876,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -6888,7 +6888,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -7061,7 +7061,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -8312,7 +8312,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -8527,7 +8527,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: SpawnNextLevelPanel
         m_Mode: 1
@@ -9158,176 +9158,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589144046}
   m_CullTransparentMesh: 1
---- !u!1 &594371761
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 594371765}
-  - component: {fileID: 594371764}
-  - component: {fileID: 594371763}
-  - component: {fileID: 594371762}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &594371762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594371761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b979f47c68226754c887f0f10fabe55f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextLevelPanel: {fileID: 401334127}
---- !u!114 &594371763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594371761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fa82618d3b1e7b4abbb0a6973ce840c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RemainingQuestions: 20
-  RemainingQuestionsText: {fileID: 950278812}
-  NextLevelButton: {fileID: 566722037}
---- !u!114 &594371764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594371761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2518f09dfab6df489b04b182be52997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainInputField: {fileID: 514559061}
-  MainInputFields:
-  - {fileID: 514559061}
-  - {fileID: 57529791}
-  - {fileID: 1977471458}
-  - {fileID: 1498206870}
-  - {fileID: 1995415142}
-  - {fileID: 258901037}
-  - {fileID: 1267970669}
-  - {fileID: 2067373089}
-  - {fileID: 928287427}
-  - {fileID: 243643342}
-  - {fileID: 1798446566}
-  - {fileID: 1381186570}
-  - {fileID: 513190489}
-  - {fileID: 1677507114}
-  - {fileID: 62619795}
-  - {fileID: 587247372}
-  - {fileID: 356581643}
-  - {fileID: 413404081}
-  - {fileID: 945414001}
-  - {fileID: 146476053}
-  myText: 
-  RightAnswer: 
-  RightAnswers:
-  - 120
-  - 20
-  - 36
-  - 5,2
-  - 100
-  - 22
-  - 2400
-  - 20
-  - 120
-  - 4,10
-  - 3
-  - 4
-  - 4
-  - 4
-  - 3
-  - 5
-  - 3
-  - 12
-  - 1
-  - 3
-  GDQuestionArray:
-  - {fileID: 1415780882}
-  - {fileID: 511788650}
-  - {fileID: 1317756182}
-  - {fileID: 211104245}
-  - {fileID: 1687622976}
-  - {fileID: 1799234661}
-  - {fileID: 122816674}
-  - {fileID: 1807596037}
-  - {fileID: 1922347646}
-  - {fileID: 2083078160}
-  GDFinishedQuestions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  GeoQuestionArray:
-  - {fileID: 778674248}
-  - {fileID: 1724458843}
-  - {fileID: 349495138}
-  - {fileID: 1862670938}
-  - {fileID: 167559470}
-  - {fileID: 544500637}
-  - {fileID: 1862870619}
-  - {fileID: 1502700690}
-  - {fileID: 1164934414}
-  - {fileID: 595815361}
-  GeoFinishedQuestions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  HintButtons:
-  - {fileID: 1179455017}
-  - {fileID: 261400595}
-  HintPanels:
-  - {fileID: 307948786}
-  - {fileID: 141033695}
-  GameManager: {fileID: 594371763}
---- !u!4 &594371765
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594371761}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8542392, y: 0.6607137, z: -0.059887953}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &595815361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9971,7 +9801,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -9983,7 +9813,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -11526,7 +11356,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -11538,7 +11368,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -13420,7 +13250,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -13630,7 +13460,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -13764,7 +13594,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -13776,7 +13606,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -13910,7 +13740,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -14232,7 +14062,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -14366,7 +14196,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -14378,7 +14208,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -15170,7 +15000,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -15182,7 +15012,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -15316,7 +15146,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -15328,7 +15158,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -15878,7 +15708,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -16110,7 +15940,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -16876,7 +16706,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -18011,7 +17841,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SpawnHintPanel
         m_Mode: 3
@@ -18145,7 +17975,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -18913,7 +18743,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -19047,7 +18877,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -19059,7 +18889,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -19570,7 +19400,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -19839,7 +19669,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -20413,7 +20243,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -20425,7 +20255,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -21086,7 +20916,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -21098,7 +20928,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -22490,7 +22320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -22502,7 +22332,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -22954,7 +22784,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -23294,7 +23124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1578169105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23360,7 +23190,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SpawnGeoQuestion
         m_Mode: 1
@@ -25215,7 +25045,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -27044,7 +26874,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -27056,7 +26886,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -28203,7 +28033,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -28215,7 +28045,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -28951,7 +28781,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -28963,7 +28793,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -29744,7 +29574,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -29756,7 +29586,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -30495,7 +30325,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -31366,7 +31196,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -31378,7 +31208,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -31512,7 +31342,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: SelectAnInputField
         m_Mode: 3
@@ -31524,7 +31354,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 594371764}
+      - m_Target: {fileID: 3862742150601303961}
         m_TargetAssemblyTypeName: QuestionBehavior, Assembly-CSharp
         m_MethodName: CheckRightAnswer
         m_Mode: 3
@@ -31734,7 +31564,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594371762}
+      - m_Target: {fileID: 3704527574581886569}
         m_TargetAssemblyTypeName: ButtonBehavior, Assembly-CSharp
         m_MethodName: ShutDownQuestion
         m_Mode: 1
@@ -32157,3 +31987,176 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &115899928691434606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362756458894726608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa82618d3b1e7b4abbb0a6973ce840c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemainingQuestions: 20
+  RemainingQuestionsText: {fileID: 950278812}
+  NextLevelButton: {fileID: 566722037}
+--- !u!114 &3704527574581886569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362756458894726608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b979f47c68226754c887f0f10fabe55f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextLevelPanel: {fileID: 401334127}
+--- !u!114 &3862742150601303961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362756458894726608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2518f09dfab6df489b04b182be52997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainInputField: {fileID: 514559061}
+  MainInputFields:
+  - {fileID: 514559061}
+  - {fileID: 57529791}
+  - {fileID: 1977471458}
+  - {fileID: 1498206870}
+  - {fileID: 1995415142}
+  - {fileID: 258901037}
+  - {fileID: 1267970669}
+  - {fileID: 2067373089}
+  - {fileID: 928287427}
+  - {fileID: 243643342}
+  - {fileID: 1798446566}
+  - {fileID: 1381186570}
+  - {fileID: 513190489}
+  - {fileID: 1677507114}
+  - {fileID: 62619795}
+  - {fileID: 587247372}
+  - {fileID: 356581643}
+  - {fileID: 413404081}
+  - {fileID: 945414001}
+  - {fileID: 146476053}
+  myText: 
+  RightAnswer: 
+  RightAnswers:
+  - 120
+  - 20
+  - 36
+  - 5,2
+  - 100
+  - 22
+  - 2400
+  - 20
+  - 120
+  - 4,10
+  - 3
+  - 4
+  - 4
+  - 4
+  - 3
+  - 5
+  - 3
+  - 12
+  - 1
+  - 3
+  GDQuestionArray:
+  - {fileID: 1415780882}
+  - {fileID: 511788650}
+  - {fileID: 1317756182}
+  - {fileID: 211104245}
+  - {fileID: 1687622976}
+  - {fileID: 1799234661}
+  - {fileID: 122816674}
+  - {fileID: 1807596037}
+  - {fileID: 1922347646}
+  - {fileID: 2083078160}
+  GDFinishedQuestions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  GeoQuestionArray:
+  - {fileID: 778674248}
+  - {fileID: 1724458843}
+  - {fileID: 349495138}
+  - {fileID: 1862670938}
+  - {fileID: 167559470}
+  - {fileID: 544500637}
+  - {fileID: 1862870619}
+  - {fileID: 1502700690}
+  - {fileID: 1164934414}
+  - {fileID: 595815361}
+  GeoFinishedQuestions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  HintButtons:
+  - {fileID: 1179455017}
+  - {fileID: 261400595}
+  HintPanels:
+  - {fileID: 307948786}
+  - {fileID: 141033695}
+  progressBarGD: {fileID: 0}
+  correctGDAnswers: 0
+  gDQuestionCount: 0
+  GameManager: {fileID: 115899928691434606}
+--- !u!1 &4362756458894726608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7819632940059981050}
+  - component: {fileID: 3862742150601303961}
+  - component: {fileID: 115899928691434606}
+  - component: {fileID: 3704527574581886569}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7819632940059981050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362756458894726608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8542392, y: 0.6607137, z: -0.059887953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
