@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class PlayerTeleport : MonoBehaviour
 {
-     //private GameObject currentTeleporter;
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //An if statement that says, if a gameObject collides with a collider with the tag "Teleporter" the gameObject will be be teleported to given coordinates
         if (collision.gameObject.tag == "Teleporter")
         {
             transform.position = new Vector3(10, 25, 0);
