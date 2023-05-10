@@ -39,8 +39,33 @@ public class ColliderBehavior : MonoBehaviour
                     
                 }
                 break;
-            
-            
+
+            case "KSCollider":
+                if (col.CompareTag("Player"))
+                {
+                    QuestionBehavior.SpawnKSQuestion();
+                    if (GameObject.FindGameObjectWithTag("Question").activeInHierarchy)
+                    {
+                        GameObject.FindGameObjectWithTag("Stick").SetActive(false);
+                    }
+
+                }
+                break;
+
+
+            case "FraCollider":
+                if (col.CompareTag("Player"))
+                {
+                    QuestionBehavior.SpawnFraQuestion();
+                    if (GameObject.FindGameObjectWithTag("Question").activeInHierarchy)
+                    {
+                        GameObject.FindGameObjectWithTag("Stick").SetActive(false);
+                    }
+
+                }
+                break;
+
+
         }
         
     }
