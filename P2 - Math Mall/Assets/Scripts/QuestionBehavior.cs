@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class QuestionBehavior : MonoBehaviour
 {
@@ -18,10 +20,49 @@ public class QuestionBehavior : MonoBehaviour
     public GameObject[] GeoFinishedQuestions = new GameObject[10];
     [SerializeField] private GameObject[] HintButtons;
     [SerializeField] private GameObject[] HintPanels;
+    [SerializeField] ProgressBar progressBarGD;
+
+    [SerializeField] int correctGDAnswers;
+    [SerializeField] int gDQuestionCount;
+
+    public ProgressBar ProgressBarGD
+    {
+        get => progressBarGD ??= FindObjectOfType<ProgressBar>();
+        set => progressBarGD = value;
+    }
     
-
-
     public GameManager GameManager;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this); // SLET, HVIS ET ANDET GAMEOBJECT SKAL BRUGES TIL AT HOLDE KORREKT ANTAL SVAR IMELLEM SCENER
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
+    {
+        SetGDProgressBar();
+        //SetGEOProgressBar();
+    }
+
+    void SetGDProgressBar()
+    {
+        foreach (ProgressBar pBar in FindObjectsOfType<ProgressBar>())
+        {
+            if (pBar.QuestionType is not QuestionType.GD) continue;
+            progressBarGD = pBar;
+
+        }
+        Debug.Log(progressBarGD == null ? "ProgressBar er null" : "ProgressBar fundet");
+        if (progressBarGD == null) return;
+
+        progressBarGD.UpdateProgressBar(correctGDAnswers, gDQuestionCount);
+    }
 
     public void CheckRightAnswer(int answerArray)
     {
@@ -31,7 +72,7 @@ public class QuestionBehavior : MonoBehaviour
 
         if (myText==RightAnswer)
         {
-            Debug.Log("Correct");
+            Debug.Log("Correct");            
             Destroy(GameObject.FindWithTag("Answer"));
             GameManager.AnswerCorrectly();
         }
@@ -68,6 +109,9 @@ public class QuestionBehavior : MonoBehaviour
         }
         array[questionIndex].SetActive(true);
         finishedQuestions[questionIndex] = array[questionIndex];
+
+        correctGDAnswers = GDFinishedQuestions.Where(questionGameObject => questionGameObject != null).Count();
+        gDQuestionCount = GDQuestionArray.Length;
     }
 
 
@@ -108,6 +152,7 @@ public class QuestionBehavior : MonoBehaviour
         
     }
 
+
   
     
     // Start is called before the first frame update
@@ -115,6 +160,7 @@ public class QuestionBehavior : MonoBehaviour
     {
         
     }
+
 
     // Update is called once per frame
     void Update()
