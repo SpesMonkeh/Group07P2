@@ -65,17 +65,17 @@ public class QuestionBehavior : MonoBehaviour
     public void SpawnKSQuestion()
     {
         SpawnTheQuestion(KSQuestionArray, KSFinishedQuestions);
-        //SpawnHintButton(1);
+        SpawnHintButton(1); //Husk lav en ny hint button
     }
 
     public void SpawnFraQuestion()
     {
         SpawnTheQuestion(FraQuestionArray, FraFinishedQuestions);
-        //SpawnHintButton(1);
+        SpawnHintButton(1); //Husk lav en ny hint button
     }
 
 
-    public void SpawnTheQuestion(GameObject[] array, GameObject[] finishedQuestions)
+    private void SpawnTheQuestion(GameObject[] array, GameObject[] finishedQuestions)
     {
 
         var questionIndex = Random.Range(0, array.Length);
