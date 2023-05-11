@@ -65,13 +65,13 @@ public class QuestionBehavior : MonoBehaviour
     public void SpawnKSQuestion()
     {
         SpawnTheQuestion(KSQuestionArray, KSFinishedQuestions);
-        SpawnHintButton(1); //Husk lav en ny hint button
+        SpawnHintButton(2);
     }
 
     public void SpawnFraQuestion()
     {
         SpawnTheQuestion(FraQuestionArray, FraFinishedQuestions);
-        SpawnHintButton(1); //Husk lav en ny hint button
+        SpawnHintButton(3);
     }
 
 
