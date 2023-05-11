@@ -14,6 +14,8 @@ TagManager:
   - Teleporter2
   - Teleporter3
   - Teleporter4
+  - KSCollider
+  - FraCollider
   layers:
   - Default
   - TransparentFX
