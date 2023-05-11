@@ -22,6 +22,11 @@ public class ProgressBar : MonoBehaviour
     public void UpdateProgressBar(float correctAnswers, float questionCount)
     {
         Debug.Log($"Correct answers: {correctAnswers} :: Question count {questionCount}");
+        if (questionCount is 0)
+        {
+            Debug.LogError("questionCount var 0!");
+            return;
+        }
         progressBar.value = correctAnswers / questionCount;
     }
 }
@@ -31,5 +36,5 @@ public enum QuestionType
 {
     NOT_SET,
     GD,
-    GEO
+    GEO,
 }
