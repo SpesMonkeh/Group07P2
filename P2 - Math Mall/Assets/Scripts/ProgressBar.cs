@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,7 +12,26 @@ public class ProgressBar : MonoBehaviour
 
     public QuestionType QuestionType => questionType;
 
-    private void Awake()
+    void OnEnable()
+    {
+	    QuestionBehavior.onSendQuestionDataList += ReceiveQuestionDataList;
+    }
+
+    void OnDisable()
+    {
+	    QuestionBehavior.onSendQuestionDataList -= ReceiveQuestionDataList;
+    }
+
+    void ReceiveQuestionDataList(List<QuestionDataSO> questionDataList)
+    {
+	    foreach (QuestionDataSO questionData in questionDataList.Where(data => data.type is not QuestionType.NOT_SET))
+	    {
+		    if (questionData.type != questionType) continue;
+		    UpdateProgressBar(questionData.finishedQuestions, questionData.questionCount);
+	    }
+    }
+
+    void Awake()
     {
         progressBar ??= GetComponent<Slider>();
     }
@@ -24,7 +41,7 @@ public class ProgressBar : MonoBehaviour
         Debug.Log($"Correct answers: {correctAnswers} :: Question count {questionCount}");
         if (questionCount is 0)
         {
-            Debug.LogError("questionCount var 0!");
+            Debug.LogWarning("questionCount var 0!");
             return;
         }
         progressBar.value = correctAnswers / questionCount;
@@ -34,7 +51,9 @@ public class ProgressBar : MonoBehaviour
 
 public enum QuestionType
 {
-    NOT_SET,
-    GD,
-    GEO,
+    NOT_SET = -1,
+    GD = 0, 
+    Geo = 1,
+    Fra = 2,
+    KS = 3,
 }
